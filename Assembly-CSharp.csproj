@@ -63,14 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\01.Static_Events_NOK\Scripts\ClickableBoxTight.cs" />
+    <Compile Include="Assets\01.Static_Events_NOK\Scripts\ParticleControllerTight.cs" />
+    <Compile Include="Assets\01.Static_Events_OK\Scripts\ClickableBox.cs" />
+    <Compile Include="Assets\01.Static_Events_OK\Scripts\ParticleController.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
-    <Compile Include="Assets\Static_Events_NOK\Scripts\ClickableBoxTight.cs" />
-    <Compile Include="Assets\Static_Events_NOK\Scripts\ParticleControllerTight.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
