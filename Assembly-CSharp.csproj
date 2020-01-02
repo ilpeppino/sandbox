@@ -63,14 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\01.Static_Events_NOK\Scripts\ClickableBoxTight.cs" />
-    <Compile Include="Assets\01.Static_Events_NOK\Scripts\ParticleControllerTight.cs" />
-    <Compile Include="Assets\01.Static_Events_OK\Scripts\ClickableBox.cs" />
-    <Compile Include="Assets\01.Static_Events_OK\Scripts\ParticleController.cs" />
-    <Compile Include="Assets\02.ObserverPattern\Scripts\AchievementSystem.cs" />
-    <Compile Include="Assets\02.ObserverPattern\Scripts\MovingCube.cs" />
-    <Compile Include="Assets\02.ObserverPattern\Scripts\Observer.cs" />
-    <Compile Include="Assets\02.ObserverPattern\Scripts\PointOfInterest.cs" />
+    <Compile Include="Assets\01.Static_Events_NOK\ClickableBoxTight.cs" />
+    <Compile Include="Assets\01.Static_Events_NOK\ParticleControllerTight.cs" />
+    <Compile Include="Assets\01.Static_Events_OK\ClickableBox.cs" />
+    <Compile Include="Assets\01.Static_Events_OK\ParticleController.cs" />
+    <Compile Include="Assets\02.ObserverPattern_NOK\AchievementSystem.cs" />
+    <Compile Include="Assets\02.ObserverPattern_NOK\MovingCube.cs" />
+    <Compile Include="Assets\02.ObserverPattern_NOK\Observer.cs" />
+    <Compile Include="Assets\02.ObserverPattern_NOK\PointOfInterest.cs" />
+    <Compile Include="Assets\02.ObserverPattern_OK\AchievementSystemWithEvents.cs" />
+    <Compile Include="Assets\02.ObserverPattern_OK\PointOfInterestWithEvents.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />

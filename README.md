@@ -14,8 +14,6 @@ Clickable Boxes which produces particles
 
 Reduce dependencies among classes with coupled dependencies
 
-**SOLUTION** 
-
 When a box ClickableBox is clicked, it invokes a static event which is called without referencing to the particle system at all.
 
 # OBSERVER PATTERN
@@ -26,10 +24,17 @@ When a box ClickableBox is clicked, it invokes a static event which is called wi
 
 **SCENE**
 
-Moving cube colliding with other cube
+Moving cube colliding with other cubes
 
 **OBJECTIVE**
 
-Explain the observer pattern. Objects 
+Explain the observer pattern with and without events.
 
-**SOLUTION** 
+We have one moving cube and three static cubes. As soon as the moving cube touches the static cubes, we get an achievement unlocked.
+
+Observers are waiting for Subjects to trigger events which they are registered for. Subjects (static cubes) will notify all the observers (in this case only AchievementSystem), and each observer will have to implement their own logic for the abstract OnNotify method called (in this case register the achievement in PlayerPrefs).
+
+In the NOK scenarios, we created ad-hoc class in the Observer.cs with Observer and Subject class. In the OK scenarios, we use events and observer/subjects are mono
+
+
+
