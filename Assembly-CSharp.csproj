@@ -67,6 +67,10 @@
     <Compile Include="Assets\01.Static_Events_NOK\Scripts\ParticleControllerTight.cs" />
     <Compile Include="Assets\01.Static_Events_OK\Scripts\ClickableBox.cs" />
     <Compile Include="Assets\01.Static_Events_OK\Scripts\ParticleController.cs" />
+    <Compile Include="Assets\02.ObserverPattern\Scripts\AchievementSystem.cs" />
+    <Compile Include="Assets\02.ObserverPattern\Scripts\MovingCube.cs" />
+    <Compile Include="Assets\02.ObserverPattern\Scripts\Observer.cs" />
+    <Compile Include="Assets\02.ObserverPattern\Scripts\PointOfInterest.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />

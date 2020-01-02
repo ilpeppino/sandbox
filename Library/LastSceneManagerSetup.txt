@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Static_Events_NOK/Scenes/Static_Events.unity
+- path: Assets/01.Static_Events_OK/Scenes/Static_Events OK.unity
   isLoaded: 1
   isActive: 1
