@@ -10,6 +10,7 @@ public class PointOfInterest : Subject
     private void OnTriggerEnter(Collider collider)
     {
         Notify(pointOfInterestName, NotificationType.AchievementUnlocked);
+        Debug.Log("OnTriggerEnter called");
     }
 
 }

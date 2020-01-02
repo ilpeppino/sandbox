@@ -24,6 +24,7 @@ public class AchievementSystem : Observer
         foreach(var pointOfInterest in FindObjectsOfType<PointOfInterest>())
         {
             pointOfInterest.RegisterObserver(this);
+            Debug.Log("Registering object: " + this.name);
         }
     }
 
