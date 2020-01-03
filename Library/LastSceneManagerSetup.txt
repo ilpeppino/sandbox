@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/01.Static_Events_OK/Scenes/Static_Events OK.unity
+- path: Assets/02.ObserverPattern_NOK/ObserverPatternScene.unity
   isLoaded: 1
   isActive: 1

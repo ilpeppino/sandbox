@@ -20,7 +20,7 @@ public class MovingCube : MonoBehaviour
         // transform.position += Vector3.forward * speed * Time.deltaTime;
 
         // Mode 2: translate
-        transform.Translate(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, Input.GetAxis("Vertical") * speed * Time.deltaTime);
+        // transform.Translate(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, Input.GetAxis("Vertical") * speed * Time.deltaTime);
 
         // Mode 3: add force
         // rb.AddForce(transform.forward * force * Time.deltaTime);
@@ -30,6 +30,14 @@ public class MovingCube : MonoBehaviour
 
         // Mode 5: velocity
         // rb.velocity = transform.forward * Time.deltaTime * force;
+
+        // Mode 6
+        Vector3 input = new Vector3 (Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, Input.GetAxis("Vertical"));
+        Vector3 direction = input.normalized;
+        Vector3 velocity = direction * speed;
+        Vector3 moveAmount = velocity * Time.deltaTime;
+
+        transform.position += moveAmount;
         
     }
 }

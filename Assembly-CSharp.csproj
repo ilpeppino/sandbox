@@ -68,11 +68,15 @@
     <Compile Include="Assets\01.Static_Events_OK\ClickableBox.cs" />
     <Compile Include="Assets\01.Static_Events_OK\ParticleController.cs" />
     <Compile Include="Assets\02.ObserverPattern_NOK\AchievementSystem.cs" />
+    <Compile Include="Assets\02.ObserverPattern_NOK\ChasingCube.cs" />
     <Compile Include="Assets\02.ObserverPattern_NOK\MovingCube.cs" />
     <Compile Include="Assets\02.ObserverPattern_NOK\Observer.cs" />
     <Compile Include="Assets\02.ObserverPattern_NOK\PointOfInterest.cs" />
     <Compile Include="Assets\02.ObserverPattern_OK\AchievementSystemWithEvents.cs" />
     <Compile Include="Assets\02.ObserverPattern_OK\PointOfInterestWithEvents.cs" />
+    <Compile Include="Assets\03.TypeObjectPattern\Target.cs" />
+    <Compile Include="Assets\03.TypeObjectPattern\Weapon.cs" />
+    <Compile Include="Assets\03.TypeObjectPattern\WeaponData.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
