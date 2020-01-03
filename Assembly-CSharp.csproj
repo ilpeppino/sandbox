@@ -79,6 +79,7 @@
     <Compile Include="Assets\03.TypeObjectPattern\WeaponData.cs" />
     <Compile Include="Assets\04.Collisions\CubeSpawner.cs" />
     <Compile Include="Assets\04.Collisions\Player.cs" />
+    <Compile Include="Assets\05.Raycasting\Cube.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />

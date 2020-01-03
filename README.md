@@ -53,4 +53,20 @@ Usage of ScriptableObjects as property collector of object and create asset menu
 
 Cubes spawning and colliding, Euler function
 
+# SCRIPT COMMUNICATION WITH EVENTS (ONE-WAY)
+
+**OBJECTIVE**
+
+*BAD SOLUTION*: Reference to other scripts from a script with FindObjectByType<>, which searches for the object which that script is attached and return a reference of the instance of that script.
+*GOOD SOLUTION*: use of non-static events
+
+# RAYCASTING
+
+**OBJECTIVE**
+
+- Shows how raycast works
+- Shows how layers work with raycast
+- Raycasts dont collide with mesh but with colliders (with or without trigger)
+- Check trigger from Project Settings -> Physics -> Queries hit triggers
+
 
