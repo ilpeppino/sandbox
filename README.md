@@ -24,7 +24,8 @@ When a box ClickableBox is clicked, it invokes a static event which is called wi
 
 **SCENE**
 
-Moving cube colliding with other cubes
+- Moving cube colliding with other cubes
+- Chasing cube
 
 **OBJECTIVE**
 
@@ -36,5 +37,20 @@ Observers are waiting for Subjects to trigger events which they are registered f
 
 In the NOK scenarios, we created ad-hoc class in the Observer.cs with Observer and Subject class. In the OK scenarios, we use events and observer/subjects are mono
 
+# TYPE OBJECT
+
+**SCENE**
+
+No scene
+
+**OBJECTIVE**
+
+Usage of ScriptableObjects as property collector of object and create asset menus
+
+# COLLISIONS AND SPAWNING
+
+**SCENE**
+
+Cubes spawning and colliding, Euler function
 
 
